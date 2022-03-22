@@ -7,10 +7,10 @@ export type ProjectsStackRoutes = {
 };
 
 export type HomeStackRoutes = {
-  Home: object;
+  Home: undefined;
   RedesignedProjectsList: { accountName: string };
   RedesignedSnacksList: { accountName: string };
-  Account: { accountName: string };
+  Account: undefined;
 };
 
 export type ProfileStackRoutes = {
