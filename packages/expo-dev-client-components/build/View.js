@@ -31,6 +31,12 @@ export const View = create(RNView, {
             '0': { flexGrow: 0 },
         },
         bg,
+        opacity: {
+            '1': { opacity: 1 },
+            '0.5': { opacity: 0.5 },
+            '0.75': { opacity: 0.75 },
+            '0': { opacity: 0 },
+        },
         border: {
             default: { borderColor: lightTheme.border.default, borderWidth: 1 },
             hairline: { borderColor: lightTheme.border.default, borderWidth: StyleSheet.hairlineWidth },

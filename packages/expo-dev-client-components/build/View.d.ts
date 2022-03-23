@@ -24,6 +24,7 @@ export declare const View: import("react").ForwardRefExoticComponent<import("rea
     shrink?: "0" | "1" | undefined;
     grow?: "0" | "1" | undefined;
     bg?: "secondary" | "default" | "none" | "error" | "warning" | "success" | "overlay" | undefined;
+    opacity?: "0" | "1" | "0.5" | "0.75" | undefined;
     border?: "default" | "hairline" | undefined;
 } & {
     selectors?: {
